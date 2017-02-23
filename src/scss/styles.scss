@@ -4,11 +4,96 @@
 
 body{
 	font-family: Helvetica, Arial, sans-serif;
+	background-image: url(https://cdn4.iconfinder.com/data/icons/square-world-flags/180/flag_iceland_square-512.png);
+	background-size: cover;
+}
+
+.landing-page {
+	background: white;
+	height: 180px;
+	padding: 10px;
+	border-left: 4px solid;
+	border-right: 4px solid;
+	margin-top: -50px;
+	width: 1200px;
+	margin-left: 30px;
+}
+
+.concerts-page {
+	background: white;
+	width: 1200px;
+	padding: 10px;
+	border-left: 4px solid;
+	border-right: 4px solid;
+	display: block;
+}
+.page-content {
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.block {
+	display: inline-block;
+	border: 1px solid grey;
+	padding: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+img {
+	padding-left: 2px;
+}
+
+th, td {
+	border-top: 1px grey solid;
+	padding-left: 4px;
+	font-size: 12px;
+	width: 445px;
+	text-align: left;
+}
+
+
+.tabcontent_list {
+	width: 100%;
+	height: 80px;
+	margin-top: -20px;
+
+
+}
+
+.tabcontent_tab {
+	width: 25%;
+	height: 30px;
+	display: inline-block;
+	background-color: #f9c7ce;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 1px;
+	margin-right: -6px;
+	padding: 4px;
+}
+
+.active {
+	background-color: #0095b7;
+	color: white;
 }
 
 h1 {
-	font-size: 300px;
+	font-size: 30px;
 	text-align: center;
-	color: chartreuse;
-	font-size: 12vw;
+	color: white;
+	background-color: #464949;
+	font-weight: 100;
+	height: 50px;
+	padding: 4px;
+}
+
+h2 {
+	background-color: #f9c7ce;
+	font-size: 30px;
+	font-weight: 200;
+	margin: 10px auto;
+	padding: 4px;
+
 }
